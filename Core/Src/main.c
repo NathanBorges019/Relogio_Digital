@@ -100,7 +100,7 @@ int main(void)
 
   while (1)
   {
-	  	//Display 1 - Número 5.
+	  	//Display 1 - Número x.
 		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, GPIO_PIN_SET);
 		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, GPIO_PIN_RESET);
 		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, GPIO_PIN_RESET);
